@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.PrimaryButton{
+    @apply bg-blue-900 text-white font-medium rounded-lg text-sm  py-1.5 text-center w-20
+}
+
+.detailsButton{
+    @apply bg-blue-600 text-white
+    font-medium rounded-lg text-sm 
+    px-14 py-1.5 text-center
+}
